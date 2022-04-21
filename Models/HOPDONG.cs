@@ -15,7 +15,7 @@ namespace CNPMNC_Project.Models
     public partial class HOPDONG
     {
         public int MAHD { get; set; }
-        public Nullable<System.DateTime> THOIHANHD { get; set; }
+        public string THOIHANHD { get; set; }
         public Nullable<int> MANV { get; set; }
         public string TENHD { get; set; }
     

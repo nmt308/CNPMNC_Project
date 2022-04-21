@@ -22,8 +22,9 @@ namespace CNPMNC_Project.Models
     
         public int MAPB { get; set; }
         public string TENPB { get; set; }
-        public string TRGPB { get; set; }
+        public Nullable<int> MANV { get; set; }
     
+        public virtual NHANVIEN NHANVIEN { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<NHANVIEN> NHANVIENs { get; set; }
     }

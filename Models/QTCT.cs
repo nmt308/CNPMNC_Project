@@ -16,8 +16,8 @@ namespace CNPMNC_Project.Models
     {
         public int MAQTCT { get; set; }
         public Nullable<int> MANV { get; set; }
-        public Nullable<System.DateTime> TGBATDAU { get; set; }
-        public Nullable<System.DateTime> TGKETTHUC { get; set; }
+        public string TGBATDAU { get; set; }
+        public string TGKETTHUC { get; set; }
         public string TENCONGTY { get; set; }
     
         public virtual NHANVIEN NHANVIEN { get; set; }

@@ -16,11 +16,11 @@ namespace CNPMNC_Project.Models
     {
         public int MABCC { get; set; }
         public Nullable<int> MANV { get; set; }
-        public Nullable<int> THANG { get; set; }
-        public Nullable<System.DateTime> NGAYLAMVIEC { get; set; }
-        public Nullable<System.DateTime> NGAYPHEP { get; set; }
-        public Nullable<System.DateTime> TANGCA { get; set; }
-        public Nullable<System.DateTime> NGAYKHPHEP { get; set; }
+        public string TRANGTHAI { get; set; }
+        public string NGAYLAMVIEC { get; set; }
+        public string NGAYPHEP { get; set; }
+        public string TANGCA { get; set; }
+        public string NGAYKHPHEP { get; set; }
     
         public virtual NHANVIEN NHANVIEN { get; set; }
     }
