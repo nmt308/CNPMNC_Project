@@ -417,3 +417,7 @@ th{
 .user_img{
     position:relative;
 }
+#SearchString {
+    outline: none;
+    width: 20vw;
+}

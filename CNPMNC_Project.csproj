@@ -155,65 +155,56 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\BANGCAP.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\BANGCHAMCONG.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ChiTietPhongBan.cs" />
     <Compile Include="Models\CHUCVU.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\GP5_PRO.Context.cs">
+    <Compile Include="Models\GRP5_CNPMNC.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GP5_PRO.Context.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\GP5_PRO.cs">
+    <Compile Include="Models\GRP5_CNPMNC.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\GP5_PRO.Designer.cs">
+    <Compile Include="Models\GRP5_CNPMNC.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GP5_PRO.edmx</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\HINHTHUC.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\HOPDONG.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\LUONG.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\NHANVIEN.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PHANQUYEN.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PHONGBAN.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\QTCT.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sp_helpdiagrams_Result.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TAIKHOAN.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\THUONGKILUAT.cs">
-      <DependentUpon>GP5_PRO.tt</DependentUpon>
+      <DependentUpon>GRP5_CNPMNC.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -229,24 +220,24 @@
     <Content Include="Content\Site.css" />
     <Content Include="Image\defaultAvatar.png" />
     <Content Include="Image\logo.png" />
-    <Content Include="Models\GP5_PRO.Context.tt">
+    <Content Include="Models\GRP5_CNPMNC.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>GP5_PRO.edmx</DependentUpon>
-      <LastGenOutput>GP5_PRO.Context.cs</LastGenOutput>
+      <DependentUpon>GRP5_CNPMNC.edmx</DependentUpon>
+      <LastGenOutput>GRP5_CNPMNC.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\GP5_PRO.tt">
+    <Content Include="Models\GRP5_CNPMNC.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>GP5_PRO.edmx</DependentUpon>
-      <LastGenOutput>GP5_PRO.cs</LastGenOutput>
+      <DependentUpon>GRP5_CNPMNC.edmx</DependentUpon>
+      <LastGenOutput>GRP5_CNPMNC.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\GP5_PRO.edmx">
+    <EntityDeploy Include="Models\GRP5_CNPMNC.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>GP5_PRO.Designer.cs</LastGenOutput>
+      <LastGenOutput>GRP5_CNPMNC.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\GP5_PRO.edmx.diagram">
-      <DependentUpon>GP5_PRO.edmx</DependentUpon>
+    <Content Include="Models\GRP5_CNPMNC.edmx.diagram">
+      <DependentUpon>GRP5_CNPMNC.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

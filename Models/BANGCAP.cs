@@ -18,7 +18,7 @@ namespace CNPMNC_Project.Models
         public Nullable<int> MANV { get; set; }
         public string TENBC { get; set; }
         public string LOAIBC { get; set; }
-        public Nullable<System.DateTime> NGAYCAP { get; set; }
+        public string NGAYCAP { get; set; }
         public string DYCAP { get; set; }
     
         public virtual NHANVIEN NHANVIEN { get; set; }

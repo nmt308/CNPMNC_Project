@@ -16,7 +16,7 @@ namespace CNPMNC_Project.Models
         public string NGAYSINH { get; set; }
         public string CMND { get; set; }
         public string QUEQUAN { get; set; }
-        public Nullable<int> SDT { get; set; }
+        public string SDT { get; set; }
         public string DANTOC { get; set; }
         public string SOBH { get; set; }
     }

@@ -21,6 +21,7 @@ namespace CNPMNC_Project.Models
             this.BANGCHAMCONGs = new HashSet<BANGCHAMCONG>();
             this.HOPDONGs = new HashSet<HOPDONG>();
             this.LUONGs = new HashSet<LUONG>();
+            this.PHONGBANs = new HashSet<PHONGBAN>();
             this.TAIKHOANs = new HashSet<TAIKHOAN>();
             this.QTCTs = new HashSet<QTCT>();
         }
@@ -34,7 +35,7 @@ namespace CNPMNC_Project.Models
         public string NGAYSINH { get; set; }
         public string CMND { get; set; }
         public string QUEQUAN { get; set; }
-        public Nullable<int> SDT { get; set; }
+        public string SDT { get; set; }
         public string DANTOC { get; set; }
         public string SOBH { get; set; }
         public string IMG_PATH { get; set; }
@@ -48,6 +49,8 @@ namespace CNPMNC_Project.Models
         public virtual ICollection<HOPDONG> HOPDONGs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<LUONG> LUONGs { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<PHONGBAN> PHONGBANs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TAIKHOAN> TAIKHOANs { get; set; }
         public virtual PHONGBAN PHONGBAN { get; set; }

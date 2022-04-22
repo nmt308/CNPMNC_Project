@@ -17,7 +17,7 @@ namespace CNPMNC_Project.Models
         public int MALUONG { get; set; }
         public Nullable<int> MANV { get; set; }
         public Nullable<int> MATKL { get; set; }
-        public Nullable<System.DateTime> THOIGIAN { get; set; }
+        public string THOIGIAN { get; set; }
         public string LUONG1 { get; set; }
         public string BHXH { get; set; }
         public string BHYT { get; set; }
